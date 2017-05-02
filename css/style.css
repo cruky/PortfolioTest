@@ -1,0 +1,186 @@
+body
+{
+    background-color: #303030;
+    color:#e0d9e1;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+}
+#container
+{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a.tilelink /* dla html4 !! */
+{
+    color:white;
+    text-decoration: none;
+    display: block;
+    width: 280px;
+    height: 153px;
+}
+
+a.sociallink /* dla html4 !! */
+{
+    color:white;
+    text-decoration: none;
+    display: block;
+    width: 130px;
+    height: 145px;
+
+}
+
+a.tilelinkhtml5 /* tylko html5 !! */
+{
+    color:white;
+    text-decoration: none;
+}
+#logo
+{
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 700;
+    text-align: left;
+    font-size: 50px;
+    float:left;
+    width: 805px;
+    
+}
+#zegar
+{
+    float:left;
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+    font-size: 50px;
+
+}
+
+.rectangle
+{
+    width: 1150px;
+    margin: 10px; /* PO CO MI MARGIN ZAMIST PADDING ? */
+    text-align: center;
+}
+
+
+.square
+{
+    width: 50%;
+    float:left;
+    min-height: 200px;
+
+}
+
+.tile1
+{    
+    width: 280px;
+    text-align: center;
+    font-size: 25px;
+    margin: 10px;
+    
+    height: 153px;
+    background-color: cornflowerblue;
+    float:left;
+}
+
+.tile1:hover
+{
+    background-color:cadetblue;
+}
+
+.tile2
+{
+    width: 280px;
+    margin: 10px;
+    height: 153px;
+    background-color:darkgray;
+    float:left;
+    text-align: center;
+}
+.tile2:hover
+{
+    background-color:dimgray;
+}
+.tile3
+{
+    width: 280px;
+    margin: 10px;
+    height: 153px;
+    background-color:#93c765;
+    float:left;
+    text-align: center;
+}
+.tile3:hover
+{
+    background-color:#83b755;
+}
+.tile4
+{
+    width: 540px;
+    margin: 10px;
+    height: 105px;
+    background-color:#d76f0d;
+    text-align: center;
+    font-size: 22px;
+    padding: 20px;
+/*    line-height: 150%;*/
+}
+
+.tile5
+{
+    width: 520px;
+    margin: 10px;
+    height: 266px;
+    background-color:#652b93;
+    text-align: justify;
+    padding: 30px;
+}
+
+.yt
+{
+    width: 130px;
+    margin: 10px;
+    height: 145px;
+    background-color:#4875B4;
+    float:left;
+}
+.yt:hover
+{
+    background-color:#3865A4;
+}
+.fb
+{
+    width: 130px;
+    margin: 10px;
+    height: 145px;
+    background-color:#ef8236;
+    float:left;
+}
+.fb:hover
+{
+    background-color:#df7226;
+}
+.gplus
+{
+    width: 130px;
+    margin: 10px;
+    height: 145px;
+    background-color:#d34836;
+    float:left;
+}
+.gplus:hover
+{
+    background-color:#c33826;
+}
+.tweeter
+{
+    width: 130px;
+    margin: 10px;
+    height: 145px;
+    background-color:#0084b4;
+    float:left;
+}
+.tweeter:hover
+{
+    background-color:#0064a4;
+}
